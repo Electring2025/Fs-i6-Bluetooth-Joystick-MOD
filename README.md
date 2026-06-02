@@ -4,6 +4,14 @@ Are you tired of proprietary cables and janky solutions like FTDI adapters and v
 
 So I decided to take matters into my own hands and create my first electronics project on GitHub and open-source it! I used AI to write the code for the ESP32-C3, so it might have some bugs, but it has worked well so far.
 
+🎁Features :
+
+✨ OTA firmware upload (useful for uploading future revisions without opening the radio up)
+PS.... update the Wifi Credentials in the main.cpp
+
+✨ Sleep mode with configurable timeouts (10sec for BLE and 5sec for WiFi)
+
+
 ## Components Required for the Mod
 1. ESP32-C3 (Super Mini recommended)
 2. Wires
