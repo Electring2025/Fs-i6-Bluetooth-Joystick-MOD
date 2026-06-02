@@ -137,7 +137,7 @@ static int32_t usToAxis(uint16_t us, bool invert)
 
 static int32_t usToSlider(uint16_t us)
 {
-    return constrain(map((long)us, 1000, 2000, 0, AXIS_MAX), AXIS_MIN, AXIS_MAX);
+    return constrain(map((long)us, 1000, 2000, AXIS_MIN, AXIS_MAX), AXIS_MIN, AXIS_MAX);
 }
 
 // ── WiFi scan + OTA init ──────────────────────────────────────────────────────
